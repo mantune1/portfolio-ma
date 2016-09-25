@@ -1,0 +1,61 @@
+
+div#header {
+	display: inline;
+	text-transform: uppercase;
+	color: White;
+}
+
+header {
+	background-color: rgb(47,47,47);
+	text-align: center;
+	word-spacing: 80px;
+	margin: 0px;
+
+}
+
+aside#principal {
+	background-image: url("taller1.jpg");
+}
+
+h1#principal {
+	color: white;
+}
+
+aside#servicios {
+	background-image: url("zwartevilt.png");
+	color: white;
+	font-family:
+}
+
+div#servicios {
+	display: inline-block;
+	width: 600px;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+}
+
+aside#nosotros {
+	background-image: url("auto1.jpg");
+}
+
+div#nosotros {
+	background-color: white;
+	width: 700px;
+	height: 500px;
+	margin: auto;
+}
+
+p#nosotros {
+	text-align: center;
+}
+
+aside#contacto {
+	background-image: url("wet_snow.png");
+}
+
+fieldset {
+	text-align: center;
+}
