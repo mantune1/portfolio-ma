@@ -1,5 +1,5 @@
 
-div#header {
+a.header {
 	display: inline;
 	text-transform: uppercase;
 	color: White;
@@ -10,26 +10,42 @@ header {
 	text-align: center;
 	word-spacing: 80px;
 	margin: 0px;
+	height: 30px;
 
 }
 
-aside#principal {
+aside.principal {
 	background-image: url("taller1.jpg");
+	width: 100%;
+	height: 700px;
 }
 
-h1#principal {
+aside.principal div {
+	display: inline-block;
+	width: 20%
+	height: 20%;
+	background-color: red;
+}
+
+h1.principal {
 	color: white;
 }
 
 aside#servicios {
 	background-image: url("zwartevilt.png");
 	color: white;
-	font-family:
+	/*width: 100%;
+	margin: auto;*/
+	/*Como hago para centrar el cuadro de texto?*/
 }
 
-div#servicios {
+div.servicios {
 	display: inline-block;
-	width: 600px;
+	/*width: 100%;*/
+}
+
+aside#servicios div {
+	display: inline-block;
 }
 
 h1 {
@@ -39,16 +55,27 @@ h1 {
 
 aside#nosotros {
 	background-image: url("auto1.jpg");
+	width: 100%;
+	height: 100%;
 }
 
-div#nosotros {
+div.nosotros-padre {
+	margin: 10px 10px 10px 10px;
+	position: relative;
+}
+
+div.nosotros {
 	background-color: white;
-	width: 700px;
-	height: 500px;
+	width: 50%;
+	height: 400px;
 	margin: auto;
+	padding: 10px;
+	position: relative;
+	top: 50px;
+	bottom: 50px;
 }
 
-p#nosotros {
+p.nosotros {
 	text-align: center;
 }
 
