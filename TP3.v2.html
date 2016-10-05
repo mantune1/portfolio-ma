@@ -3,10 +3,11 @@
 <head>
 	<title>Tu Auto al Día</title>
 	<meta charset="utf-8">
-	<!-- <link rel="stylesheet" type="text/css" href="reset.css">-->
-	<link rel="stylesheet" type="text/css" href="TP3.css">
+	<!--<link rel="stylesheet" type="text/css" href="reset.css">-->
+	<link rel="stylesheet" type="text/css" href="TP3.v2.css">
 </head>
 <!--Acá necesito saber como agrandar el margen para que no se vea lo blanco arriba--> <!--Resuelto con reset-->
+<body>
 <header>
 	<p class="header">
 	<a class="header" href="#principal">Inicio</a>
@@ -15,16 +16,53 @@
 	<a class="header" href="#contacto">Contacto</a>
 	</p>
 </header>
-<body>
-
-	<aside class="principal">
+<main>
+	<section id="principal">
+		<img src="logotaad.png" id="logo">
 		<h1 class="principal">Hacemos la revisión técnica por ti</h1>
-		<div>Hola</div>
-		<div>Hola</div>
-	</aside>
+		<div class="item1">Inscribe tu patente aquí, síguenos en instagram (@tuautoaldia.cl), y te descontamos $4.000 en tu próxima revisión!</div>
+		<div class="item2">
+			<form>
+			<fieldset>
+			<legend></legend>
+				<!--Patente-->
+				<p>
+				<label for="texto-nombre">  </label><br>
+				<input id="patente" type="text" name="patente" placeholder="Patente">
+				</p>
+										
+				<!--email-->
+				<p>
+				<label></label> <br>
+				<input type="email" name="email" placeholder="Email">
+				</p>
 
-	<aside id="servicios">
-		<h1>Servicios</h1>
+				<!--celular-->
+				<p>
+				<label></label> <br>
+				<input type="tel" name="" placeholder="Celular">
+				</p>
+				
+				<!--Comentarios-->
+				<p>  </p>
+				<p>
+				<label for="area"></label>
+				<textarea id="area" name="area" cols="30" rows="5"></textarea>
+				</p>
+				
+				<input type="submit" value="Enviar">
+					
+			</fieldset>	
+			</form>
+		</div>
+		<div id="redes-sociales">
+		<div class="facebook">facebook</div>
+		<div class="instagram">instagram</div>
+		</div>
+	</section>
+
+	<section id="servicios">
+		<h1 class="servicios">Servicios</h1>
 		<div class="servicios">
 		<ul>
 			<li>Recogemos tu auto en el lugar que te acomode para llevarlo a la revisión técnica.
@@ -41,22 +79,22 @@
 			<li>Una vez que contrates nuestros servicios, te avisaremos cuando te toque realizar tu próxima revisión técnica, de esta manera podrás disfrutar de otras cosas sin preocuparte de esto.</li>
 		</ul>
 		</div>
-	</aside>
+	</section>
 
-	<aside id="nosotros">
+	<section id="nosotros">
 	<!--Quiero hacer un cuadrado blanco que se despegue de los bordes del background, intento poniendole margenes al div, pero no funciona-->
-		<div class="nosotros-padre">
-			<div class="nosotros">
+		
+		<div class="nosotros">
 			<h1 class="nosotros"> Nosotros</h1>
 			<p> Somos una empresa que tiene como principal objetivo dar una solución a la falta de tiempo de los automovilistas. Llevamos tu auto a la revisión técnica, la realizamos y te lo devolvemos
 			donde lo recogimos.</p>
 			<p>Nuestros principales valores son la <b>responsabilidad</b>,  <b>confianza</b> y <b>compromiso</b> con nuestros clientes, brindándoles
 			un servicio de excelencia y comodidad.</p>
-			</div>
 		</div>
-	</aside>
+		
+	</section>
 
-	<aside id="contacto">
+	<section id="contacto">
 		<form>
 		<fieldset>
 			<legend><h1>Contactanos</h1></legend>
@@ -90,8 +128,11 @@
 	
 		</fieldset>	
 		</form>
-	</aside>
+	</section>
 
-
+</main>
+<footer>
+	
+</footer>
 </body>
 </html>
